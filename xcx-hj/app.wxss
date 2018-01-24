@@ -1,0 +1,48 @@
+
+@import "./lib/wxParse/wxParse.wxss";
+
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ellipsis-multi-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis-line-2 {
+    -webkit-line-clamp: 2;
+}
+
+.ellipsis-line-3 {
+    -webkit-line-clamp: 3;
+}
+
+.ellipsis-line-4 {
+    -webkit-line-clamp: 4;
+}
+
+.ellipsis-line-5 {
+    -webkit-line-clamp: 5;
+}
+
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+    height: 100%;
+     background-color: #f8f8f8; 
+}
